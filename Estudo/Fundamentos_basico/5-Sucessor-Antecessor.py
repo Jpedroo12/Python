@@ -1,4 +1,4 @@
-num = int(input('Digite o numero para pode ver o antecessor e o sucessor:'))
+num = int(input('Digite o numero para pode ver o antecessor e o sucessor: '))
 
 antecessor = num - 1
 sucessor = num + 1

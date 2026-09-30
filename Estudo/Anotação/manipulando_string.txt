@@ -1,0 +1,39 @@
+1. Fatiamento de Strings
+Permite acessar partes específicas de uma string.
+
+Sintaxe: frase[início:fim:passo]
+frase[9]: Pega o caractere no índice 9 (10ª posição).
+frase[9:13]: Pega do índice 9 até o 12 (o 13 é ignorado).
+frase[:5]: Do início até o índice 4.
+frase[15:]: Do índice 15 até o final.
+frase[9::3]: Começa no 9, vai até o fim, pulando de 3 em 3.
+
+2. Funções de Análise
+len(frase): Retorna o comprimento total da string (incluindo espaços).
+
+frase.count('o'): Conta quantas vezes o caractere 'o' aparece.
+
+frase.find('deo'): Indica em qual índice começa a sequência 'deo'. Retorna -1 se não encontrar.
+
+Operador in: Verifica se uma palavra existe na frase (ex: 'Curso' in frase), retornando True ou False.
+
+3. Funções de Transformação
+Lembrete: Strings são imutáveis. Para salvar mudanças, é preciso atribuir a uma variável.
+
+frase.replace('Python', 'Android'): Substitui um termo por outro.
+
+frase.upper(): Transforma tudo em maiúsculas.
+
+frase.lower(): Transforma tudo em minúsculas.
+
+frase.capitalize(): Apenas o primeiro caractere fica maiúsculo, o restante minúsculo.
+
+frase.title(): Transforma a primeira letra de cada palavra em maiúscula.
+
+frase.strip(): Remove espaços inúteis no início e no final da string.
+
+Variações: lstrip() (esquerda) e rstrip() (direita).
+
+4. Divisão e Junção
+frase.split(): Divide a string em uma lista, usando o espaço como separador por padrão.
+'-'.join(lista): Junta os elementos de uma lista, colocando o hífen entre eles.
